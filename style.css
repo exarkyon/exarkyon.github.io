@@ -1,0 +1,76 @@
+.imagelogo{
+  width: 60px;
+  height: 60px
+}
+
+.mainimage{
+ width: 100%;
+  
+}
+
+.card-img-top {
+  width: 200px;
+  height: 300px;
+}
+
+.card{
+  margin-bottom: 30px;
+  margin-top: 30px
+}
+
+
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+
+.carousel-item{
+  height: 400px;
+ width: 400px;
+ background-size: cover; 
+}
+
+.card-mb-3{
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+
+}
+
+.d-block-w-100{
+  background : rgba(0,0,0,1);
+}
+
+.photo-sepia img {
+filter: sepia(1);
+-webkit-filter: sepia(1);
+}
+.photo-sepia img:hover {
+filter: sepia(0);
+-webkit-filter: sepia(0);
+}
