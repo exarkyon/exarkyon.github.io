@@ -59,18 +59,14 @@
   margin-top: 30px;
   margin-left: 60px;
   margin-right: 60px;
+  border: 1px solid grey;
+  border-radius: 1%;
 
 }
 
-.d-block-w-100{
-  background : rgba(0,0,0,1);
-}
-
-.photo-sepia img {
-filter: sepia(1);
--webkit-filter: sepia(1);
-}
-.photo-sepia img:hover {
-filter: sepia(0);
--webkit-filter: sepia(0);
+.text-center{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-shadow: 10%;
+text-decoration: overline ;
 }

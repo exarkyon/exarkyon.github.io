@@ -1,269 +1,290 @@
 <!DOCTYPE html>
 <html>
-<head>
- <title> Bifrost </title>
- <meta name="description" content="Voyager à travers les différents univers de vos rêves grâce à notre machine a voyager que nous avons baptisé BIFROST. L'aventure vous attend">
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-</head>
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"> 
-  	<img src="images/logo.jpg" class="imagelogo">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#voyager">Voyager <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#Offresspeciales">Offres spéciales</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Destinations
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Les tops du mois</a>
-          <a class="dropdown-item" href="#">Nouveautés</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Recherches avancées</a>
-        </div>
-      </li>
-     
-     <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Connexion
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" data-toggle="modal" data-target="#exampleModal">deja membre</a>
-          <a class="dropdown-item" href="#">s'enregistrer</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Besoin d'aide ?</a>
-        </div>
-      </li>
-      </li>
-    </ul>
-
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="Rechercher" placeholder="Rechercher" aria-label="Rechercher">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">C'est parti</button>
-    </form>
-  </div>
+	<head>
+		<title> Bifrost </title>
+		<meta name="description" content="Voyager à travers les différents univers de vos rêves grâce à notre machine a voyager que nous avons baptisé BIFROST. L'aventure vous attend">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	</head>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#"><img src="images/logo.jpg" class="imagelogo"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#voyager">Voyager <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item"><a class="nav-link" href="#Offresspeciales">Offres spéciales</a></li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destinations</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Les tops du mois</a>
+						<a class="dropdown-item" href="#">Nouveautés</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Recherches avancées</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Connexion</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<!-- Bouton modal inclu dans le dropdown -->
+						<a class="dropdown-item" data-toggle="modal" data-target="#exampleModal">Deja membre</a>
+						<a class="dropdown-item" href="#">S'enregistrer</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Besoin d'aide ?</a>
+					</div>
+				</li>
+			</li>
+		</ul>
+		<form class="form-inline my-2 my-lg-0">
+			<input class="form-control mr-sm-2" type="Rechercher" placeholder="Rechercher" aria-label="Rechercher">
+			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">C'est parti</button>
+		</form>
+	</div>
 </nav>
-
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="images/naboo.jpg" style="filter: grayscale(1);-webkit-filter: grayscale(1)" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="images/bifost.jpg" alt="Second slide">
-    </div>
-   
-    <div class="carousel-item">
-      <img class="d-block w-100" src="images/toussaint.jpg" alt="Third slide">
-    </div>
-
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+	<ol class="carousel-indicators">
+		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	</ol>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img class="d-block w-100" src="images/naboo.jpg" alt="First slide">
+		</div>
+		<div class="carousel-item">
+			<img class="d-block w-100" src="images/bifost.jpg" alt="Second slide">
+		</div>
+		<div class="carousel-item">
+			<img class="d-block w-100" src="images/toussaint.jpg" alt="Third slide">
+		</div>
+	</div>
+	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only"></span>
+	</a>
+	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only"></span>
+	</a>
 </div>
-
-<div class="text-center" id="voyager">
-	<h1> Voyager </h1>
-</div>
-
-
-<div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="images/coruscant.png" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Coruscant</h5>
-      <p class="card-text">A partir de 300 euros </p>
-    </div>
-    <div class="card-footer">
-      <button type="button" class="btn btn-outline-dark btn-sm">Découvrir</button>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="images/baraddur.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Barad Dur</h5>
-      <p class="card-text"> A partir de 300 euros</p>
-    </div>
-    <div class="card-footer">
-      <button type="button" class="btn btn-outline-dark btn-sm">Découvrir</button>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="images/elfes.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title"> Foncombe </h5>
-      <p class="card-text"> A partir de 300 euros </p>
-    </div>
-    <div class="card-footer">
-      <button type="button" class="btn btn-outline-dark btn-sm">Découvrir</button>
-    </div>
-  </div>
-</div>
-
-
-<div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="images/pandora.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Pandora</h5>
-      <p class="card-text">A partir de 300 euros </p>
-    </div>
-    <div class="card-footer">
-     <button type="button" class="btn btn-outline-dark btn-sm">Découvrir</button>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="images/poudlard.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Pourdlard</h5>
-      <p class="card-text"> A partir de 300 euros</p>
-    </div>
-    <div class="card-footer">
-      <button type="button" class="btn btn-outline-dark btn-sm">Découvrir</button>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="images/jakku.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Jakku </h5>
-      <p class="card-text"> A partir de 300 euros</p>
-    </div>  
-    <div class="card-footer">
-      <button type="button" class="btn btn-outline-dark btn-sm">Découvrir</button>
-    </div>
-  </div>
-</div>
-
-
-<div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="images/halo.png" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Installation 04</h5>
-      <p class="card-text">A partir de 300 euros </p>
-    </div>
-    <div class="card-footer">
-      <button type="button" class="btn btn-outline-dark btn-sm">Découvrir</button>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="images/asgard.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Asgard</h5>
-      <p class="card-text">A partir de 300 euros</p>
-    </div>
-    <div class="card-footer">
-      <button type="button" class="btn btn-outline-dark btn-sm">Découvrir</button>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="images/minastirith.png" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title"> Minas Tirith </h5>
-      <p class="card-text"> A partir de 300 euros </p>
-    </div>
-
-    <div class="card-footer">
-      <button type="button" class="btn btn-outline-dark btn-sm">Découvrir</button>
-    </div>
-  </div>
-</div>
-
-
-<div class="text-center" id="Offresspeciales">
-	<h1> Offres spéciales </h1>
-</div>
-
-<div class="card-mb-3">
-  <img class="card-img-top" src="images/galaxie.jpg" alt="Card image cap">
-  <div class="card-body">
-  <p class="card-text"> 
-  	<a class="typeform-share button" href="https://yohanvitiello.typeform.com/to/yzY2K7" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#3E3F43;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:14px;line-height:35px;text-align:center;margin:0;height:35px;padding:0px 23px;margin-left: 300px;border-radius:4px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Réservez </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-  </div>
-
-
-
-
-<!-- Button trigger modal -->
-
-
-<!-- Modal -->
+<!-- Modal du dropdown de la nav bar -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">connexion</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-      </div>
-    </div>
-  </div>
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">
+					Connexion
+				</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body">
+				<form>
+					<div class="form-group">
+						<label for="exampleInputEmail1">Adresse mail ou pseudo</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email ou pseudo">
+						<small id="emailHelp" class="form-text text-muted"></small>
+					</div>
+					<div class="form-group">
+						<label for="exampleInputPassword1">Mot de passe</label>
+						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe">
+					</div>
+					<div class="form-group form-check">
+						<input type="checkbox" class="form-check-input" id="exampleCheck1">
+						<label class="form-check-label" for="exampleCheck1">Rester connecté</label>
+					</div>
+					<button type="submit" class="btn btn-primary">Entrer</button>
+				</form>
+			</div>
+		</div>
+	</div>
 </div>
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d296.53738924765446!2d1.2082730252323033!3d44.338162176528925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1542307197758" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-
-
-
-<div class="footer">
-  <div class="footer-links">
-    <a href="#"><i class="fab fa-instagram"></i></a>
-    <a href="#"><i class="fab fa-facebook"></i></a>
-    <a href="#"><i class="fab fa-twitter"></i></a>
-  </div>
-  <div class="footer-copyright">
-    Tenez vous informez 
-  </div>
-</div>
-
-
-
-
-
 <body>
+	<div class="text-center" id="voyager">
+		<h1> Voyager </h1>
+	</div>
+	<div class="card-deck">
+		<div class="card">
+			<img class="card-img-top" src="images/coruscant.png" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title">
+					Coruscant
+				</h5>
+				<p class="card-text">
+					A partir de 300 euros 
+				</p>
+			</div>
+			<div class="card-footer">
+				<button type="button" class="btn btn-outline-dark btn-sm">Découvrir</button>
+			</div>
+		</div>
+		<div class="card">
+			<img class="card-img-top" src="images/baraddur.jpg" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title">
+					Barad Dur
+				</h5>
+				<p class="card-text">
+					 A partir de 599 euros
+				</p>
+			</div>
+			<div class="card-footer">
+				<button type="button" class="btn btn-outline-dark btn-sm">Découvrir</button>
+			</div>
+		</div>
+		<div class="card">
+			<img class="card-img-top" src="images/elfes.jpg" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title">
+					 Foncombe 
+				</h5>
+				<p class="card-text">
+					 A partir de 350 euros 
+				</p>
+			</div>
+			<div class="card-footer">
+				<button type="button" class="btn btn-outline-dark btn-sm">Découvrir</button>
+			</div>
+		</div>
+	</div>
+	<div class="card-deck">
+		<div class="card">
+			<img class="card-img-top" src="images/pandora.jpg" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title">
+					Pandora
+				</h5>
+				<p class="card-text">
+					A partir de 300 euros 
+				</p>
+			</div>
+			<div class="card-footer">
+				<button type="button" class="btn btn-outline-dark btn-sm">Découvrir</button>
+			</div>
+		</div>
+		<div class="card">
+			<img class="card-img-top" src="images/poudlard.jpg" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title">
+					Pourdlard
+				</h5>
+				<p class="card-text">
+					 A partir de 250 
+				</p>
+			</div>
+			<div class="card-footer">
+				<button type="button" class="btn btn-outline-dark btn-sm">Découvrir</button>
+			</div>
+		</div>
+		<div class="card">
+			<img class="card-img-top" src="images/jakku.jpg" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title">
+					Jakku 
+				</h5>
+				<p class="card-text">
+					 A partir de 199 euros
+				</p>
+			</div>
+			<div class="card-footer">
+				<button type="button" class="btn btn-outline-dark btn-sm">Découvrir</button>
+			</div>
+		</div>
+	</div>
+	<div class="card-deck">
+		<div class="card">
+			<img class="card-img-top" src="images/halo.png" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title">
+					Installation 04
+				</h5>
+				<p class="card-text">
+					A partir de 450 euros 
+				</p>
+			</div>
+			<div class="card-footer">
+				<button type="button" class="btn btn-outline-dark btn-sm">Découvrir</button>
+			</div>
+		</div>
+		<div class="card">
+			<img class="card-img-top" src="images/asgard.jpg" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title">
+					Asgard
+				</h5>
+				<p class="card-text">
+					A partir de 500 euros
+				</p>
+			</div>
+			<div class="card-footer">
+				<button type="button" class="btn btn-outline-dark btn-sm">Découvrir</button>
+			</div>
+		</div>
+		<div class="card">
+			<img class="card-img-top" src="images/minastirith.png" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title">
+					 Minas Tirith 
+				</h5>
+				<p class="card-text">
+					 A partir de 600 euros 
+				</p>
+			</div>
+			<div class="card-footer">
+				<button type="button" class="btn btn-outline-dark btn-sm">Découvrir</button>
+			</div>
+		</div>
+	</div>
+	<div class="text-center" id="Offresspeciales">
+		<h1> Offres spéciales </h1>
+	</div>
+	<div class="card-mb-3">
+		<img class="card-img-top" src="images/galaxie.jpg" alt="Card image cap">
+		<div class="card-body" style="background-image: linear-gradient(grey,white)">
+			<p class="card-text">
+				<div class="text-center">
+					<a class="typeform-share button" href="https://yohanvitiello.typeform.com/to/yzY2K7" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#3E3F43;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:14px;line-height:35px;text-align:center;margin:0;height:35px;padding:0px 23px;border-radius:4px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Réservez dès maintenant </a>
+					<script>
+						 (function() {
+							 var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/";
+							 if(!gi.call(d,id)){
+								 js=ce.call(d,"script");
+								 js.id=id;
+								 js.src=b+"embed.js";
+								 q=gt.call(d,"script")[0];
+								 q.parentNode.insertBefore(js,q) 
+							}
+							 
+						}
+					</script>
+				</div>
+				<p class="card-text">
+					<small class="text-muted">
+						*Offre disponible jusqu'au 22 janvier 2019
+					</small>
+				</p>
+			</div>
+		</p>
+	</div>
+</div>
+<div class="text-center">
+	<h1> Visitez notre quartier général</h1>
+</div>
+<div class="text-center">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d296.53738924765446!2d1.2082730252323033!3d44.338162176528925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1542307197758" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+<div class="footer">
+	<div class="footer-links">
+		<a href="https://www.instagram.com/?hl=fr"><i class="fab fa-instagram"></i></a>
+		<a href="https://www.google.fr/search?hl=fr&source=hp&ei=8fHuW_LVHYOtswGkgYmoCA&q=facebook&oq=fa&gs_l=psy-ab.1.2.35i39l2j0i131i67j0i67j0i131j0i67l3j0i20i263j0i67.1326.1582..3648...0.0..0.209.455.0j2j1......0....1..gws-wiz.....0..0.2R-bxJ3rRMw"><i class="fab fa-facebook"></i></a>
+		<a href="https://twitter.com/?lang=fr"><i class="fab fa-twitter"></i></a>
+		<a href="https://apps.thecodepost.org/trex/trex.html"><i class="fas fa-gamepad"></i></a>
+	</div>
+	<div class="footer-copyright">
+		Tenez vous informez
+	</div>
+</div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
